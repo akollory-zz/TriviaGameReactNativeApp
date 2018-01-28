@@ -15,16 +15,3 @@ export function incrementStep(step) {
     } 
   }
 }
-
-function createExistingContactError(notification) {
-  return {
-    type: ActionTypes.CREATE_EXISTING_CONTACT_ERROR,
-    payload: {
-      notification,
-    },
-  };
-}
-
-export function setVisibilityFilter(filter) {
-  return { type: SET_VISIBILITY_FILTER, filter }
-}
